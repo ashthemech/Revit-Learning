@@ -65,6 +65,24 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * Note - since I am using the 2027 version, Revit updated the 2023 models to the 2027 versions needed.
   * Then, going into a 3D view we can see the [full building](https://github.com/ashthemech/Revit-Learning/blob/main/Starting%20a%20Revit%20Project/Full%20Structure%20(Arch-Struct).png). I made sure everything was pinned by using the selection tool, filtering by Revit Links and clicked the Pin icon.
 
+  **Adding Spaces**
+  * Spaces in Revit MEP mimic rooms in Revit Architecture but Spaces allow us to calculate heating and cooling loads and lighting levels.
+  * Here we will add spaces, configure space tags, and rename spaces.
+  * Opening "Electrical Project Spaces" from the exercise files and in the Power 1 floor plan.
+    * Note, once we put a space in, it will be in every view even if in a specific layer (a space is a 3D element).
+  * Going to the Analyze tab and clicking space, I [added a space]() to the lower left room on the right side of the building.
+  * I then went in and edited the Space Name, changing it to Room Name, and changed the number from Number to Room Number.
+  * I then used the Place Spaces Automatically tool to fill in the [rest of the building]().
+  * Now we need to edit some of the automatically filled spaces, best to do this in a schedule so I went to the View tab and into Schedule/Quantities.
+  * Going into Spaces and then changing the drop down into "Rooms", adding Room/Space Name and Room/Space Number into the [Scheduled Fields box]().
+  * Then I filtered by room number to [generate the schedule](). All the rooms without a Room: Name we can [delete]() as those are "unoccupied".
+  * Now we need to fix the labeling, so going into the Analyze tab and Space Naming to [transfer the Room properties]() to the Number and Name properties.
+  * Now the [redundant spaces are gone]() in our full building layout.
+
+
+
+
+
   
 </details>
 </details>
