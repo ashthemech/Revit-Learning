@@ -59,11 +59,11 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * The first thing that is done at the start of any MEP project is to link other trades in.
   * Going to the insert tab and clicking "Link Revit" and using the course files we can link the "Architectural" drawing.
     * Note - positioning is the important one, generally "Auto - Internal Origin to Internal Origin".
-  * I did this with the [Architectural file]() in the exercises, then pinned it so it cannot be accidentally moved.
+  * I did this with the [Architectural file](https://github.com/ashthemech/Revit-Learning/blob/main/Starting%20a%20Revit%20Project/Adding%20Architectural%20Background.png) in the exercises, then pinned it so it cannot be accidentally moved.
   * Then I went into Edit Type on the properties panel and turned on room bounding. Also unchecked select pin elements so it cannot be selected.
   * Then I linked the structural model as well.
   * Note - since I am using the 2027 version, Revit updated the 2023 models to the 2027 versions needed.
-  * Then, going into a 3D view we can see the [full building](). I made sure everything was pinned by using the selection tool, filtering by Revit Links and clicked the Pin icon.
+  * Then, going into a 3D view we can see the [full building](https://github.com/ashthemech/Revit-Learning/blob/main/Starting%20a%20Revit%20Project/Full%20Structure%20(Arch-Struct).png). I made sure everything was pinned by using the selection tool, filtering by Revit Links and clicked the Pin icon.
 
   
 </details>
