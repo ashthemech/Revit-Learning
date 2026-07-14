@@ -29,6 +29,7 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * Electrical model has specific perks when working with electrical drawings, like adding cable trays with fittings.
   * Took a tour of the user interface with the home tab, quick access toolbar, context sensitive menus, and project browser.
   * Learned how to link other Revit models into an Electrical project and used the Pin tool to make sure they cannot accidentally be moved.
+  * Learned how to add spaces to a building, edit and transfer names and number properties, and generate a schedule to clean up the spaces in "unoccupied" zones. 
 
 <details> 
 <summary> Notes </summary>
@@ -80,6 +81,11 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * Now the [redundant spaces are gone](https://github.com/ashthemech/Revit-Learning/blob/main/Starting%20a%20Revit%20Project/Spaces%20in%20Building%20%20after%20Removal.png) in our full building layout.
 
 
+  **Copying Levels and Setting Up Monitoring**
+  * The Architectural and Structural models have a lot of underlays and grids, but in our current model we only have 2.
+  * We can copt in the levels from the architectural model and the grids from the structural model.
+  * But, we can copy them in such a way that it keeps a "live model" - so if the architect moves a level or grid, we get a coordination alert.
+  * 
 
 
 
