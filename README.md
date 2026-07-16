@@ -83,8 +83,19 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
 
   **Copying Levels and Setting Up Monitoring**
   * The Architectural and Structural models have a lot of underlays and grids, but in our current model we only have 2.
-  * We can copt in the levels from the architectural model and the grids from the structural model.
+  * We can copy the levels from the architectural model and the grids from the structural model.
   * But, we can copy them in such a way that it keeps a "live model" - so if the architect moves a level or grid, we get a coordination alert.
+  * Used the "tag all" button in Analyze to add the previously made space tags into the rooms again.
+  * Went into the "South Elevations" in the Project Browser and went into Visibility/Graphics to change the structural linked view to change the Display Settings to "custom" and uncheck the "show categories" in the annotations tab.
+    * This eliminated the "duplicate" level tags in the Elevation View.
+  * Now we would like to [align the structural Level 2 with the Architectural Level 2]().
+  * On Modify Tab, click "Align" - then click the level you want to align TO first, then the level to [bring into alignment]().
+  * For the rest of the levels, we can "copy monitor" the rest of them on the collaborate tab.
+  * Using select link, [selecting the architectural], then Copy/Monitor, Copy, Copy multiple and CTRL selecting Level 4, 5, and Roof, then hitting "finish".
+  * Back to the 1 - Lighting to repeat the process with the [structural model]() with the gridlines. 
+
+
+  **Creating Floor Plans**
   * 
 
 
