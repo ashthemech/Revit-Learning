@@ -88,11 +88,11 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * Used the "tag all" button in Analyze to add the previously made space tags into the rooms again.
   * Went into the "South Elevations" in the Project Browser and went into Visibility/Graphics to change the structural linked view to change the Display Settings to "custom" and uncheck the "show categories" in the annotations tab.
     * This eliminated the "duplicate" level tags in the Elevation View.
-  * Now we would like to [align the structural Level 2 with the Architectural Level 2]().
-  * On Modify Tab, click "Align" - then click the level you want to align TO first, then the level to [bring into alignment]().
+  * Now we would like to [align the structural Level 2 with the Architectural Level 2](https://github.com/ashthemech/Revit-Learning/blob/main/Starting%20a%20Revit%20Project/Align%20L2.png).
+  * On Modify Tab, click "Align" - then click the level you want to align TO first, then the level to [bring into alignment](https://github.com/ashthemech/Revit-Learning/blob/main/Starting%20a%20Revit%20Project/Aligned%20L2.png).
   * For the rest of the levels, we can "copy monitor" the rest of them on the collaborate tab.
-  * Using select link, [selecting the architectural], then Copy/Monitor, Copy, Copy multiple and CTRL selecting Level 4, 5, and Roof, then hitting "finish".
-  * Back to the 1 - Lighting to repeat the process with the [structural model]() with the gridlines. 
+  * Using select link, [selecting the architectural](https://github.com/ashthemech/Revit-Learning/blob/main/Starting%20a%20Revit%20Project/Selecting%20Arch%20Model.png), then Copy/Monitor, Copy, Copy multiple and CTRL selecting Level 4, 5, and Roof, then hitting "finish".
+  * Back to the 1 - Lighting to repeat the process with the [structural model](https://github.com/ashthemech/Revit-Learning/blob/main/Starting%20a%20Revit%20Project/Copy%20and%20Monitor%20Struct.png) with the gridlines. 
 
 
   **Creating Floor Plans**
