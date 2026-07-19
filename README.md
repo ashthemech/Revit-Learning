@@ -29,7 +29,9 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * Electrical model has specific perks when working with electrical drawings, like adding cable trays with fittings.
   * Took a tour of the user interface with the home tab, quick access toolbar, context sensitive menus, and project browser.
   * Learned how to link other Revit models into an Electrical project and used the Pin tool to make sure they cannot accidentally be moved.
-  * Learned how to add spaces to a building, edit and transfer names and number properties, and generate a schedule to clean up the spaces in "unoccupied" zones. 
+  * Learned how to add spaces to a building, edit and transfer names and number properties, and generate a schedule to clean up the spaces in "unoccupied" zones.
+  * Learned how to copy levels and ensure they are aligned between architectural and structural, as well as set up monitoring so a warning displays is an architectural level changes.
+  * Learned how to create new views with the proper templates and delete no longer needed views in an organized manner. 
 
 <details> 
 <summary> Notes </summary>
@@ -96,8 +98,27 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
 
 
   **Creating Floor Plans**
+  * Objective here is to add views to the project browser and duplicate existing views.
+  * Going to the "view" tab, clicking "plan views" and "floor plan". Here, we only see levels 3-5 and the roof. We want to add Levels 1 and 2.
+  * Selecting the views in Power, we can then [rename]() 1 - Power to "Level 1" and [repeat]() for level 2 as well. 
+  * Selecting the remaining levels 3-5 and roof, we can change the electrical view template to "none", and discipline to "coordination.
+  * Then, we make duplicate levels 3-5 and roof with detailing, renaming them to the power naming convention (not renaming the level here).
+  * Then, we put the view template back to electrical to copy the views to the electrical view tab in the [Project Browser]().
+  * Views are used a lot in Revit, copying, manipulating, and then removing views but want to be organized about it. 
+
+</details>
+</details>
+
+<details>
+<summary> 2. Revit Electrical </summary>
+
+  Key Takeaways:
   * 
 
+<details> 
+<summary> Notes </summary>
+
+  **Adding Recepticals**
 
 
   
