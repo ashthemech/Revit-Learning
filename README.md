@@ -112,19 +112,30 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
 <summary> 3. Revit Electrical </summary>
 
   Key Takeaways:
-  * 
+  * Learned how to place a standard recptical on a wall.
+  * Learned how to place panels 
 
 <details> 
 <summary> Notes </summary>
 
   **Adding Recepticals**
-  * Now we want to add some recepticals into our building.
-  * Makibng sure I was in "Level 1 - Power", we want to add recepticales into the Office Space 101.
+  * Now we want to add some receptacles into our building.
+  * Making sure I was in "Level 1 - Power", we want to add receptacles into the Office Space 101.
   * We go into the "Systems" Tab, then the device pulldown for "Electrical Panel" and select ["Electrical Fixture"](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Electrical%20Fixture%20Tool.png).
   * I ensured I had the "standard" receptacle selected and made sure "place on vertical face" was on.
   * I [placed](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Placed%20Recepticals%20in%20Office%20and%20Reception.png) 3 in the Office 101 Room and also 3 in the Reception 102 room.
     * I also noted that the Loads tab in the properties is grayed out since there is no panel or circuit number specified. 
 
+
+  **Adding Panels**
+  * We have receptacles in our model, but we can't yet circuit them. That's what the panel does.
+  * Here I will add a panel, give it a name, and look at the distribution system.
+  * In Level 1 - power we can zoom into the Electrical room.
+  * Then on the Systems tab in the electrical panel we can click on "Electrical Equipment".
+  * We scroll down to select "Lighting and Appliance Panel Board - 208V MLO 225A".
+  * I placed it on the [bottom wall](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/PP-1%20Panel%20Placement.png), then selected the panel to access the identity data.
+  * I named the panel PP-1, and noted it has a distribution system - to power something with it, these distributions must match.
+  * I copied the panel we placed and set the copy to the [right of the original panel](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/LP-1%20Panel%20Placement.png), making it a 480V MLO at 250A and named it "LP-1".
 
   
 </details>
