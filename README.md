@@ -110,7 +110,7 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
 </details>
 
 <details>
-<summary> 2. Revit Electrical </summary>
+<summary> 3. Revit Electrical </summary>
 
   Key Takeaways:
   * 
