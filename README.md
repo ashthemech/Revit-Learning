@@ -161,6 +161,10 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * If we click on Edit for the Default Branch Panel Schedule, we can [modify the template](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Edit%20Default%20Branch%20Panel.png) with carrots denoting fields.
   * We can upload a picture, merge and unmerge cells, or change the default fields.
   * Now, any fixtures that are added or removed from that panel will be automatically updated.
+
+
+  **Adding Lighting Fixtures**
+  * 
  
   
 </details>
