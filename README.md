@@ -118,6 +118,12 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
 <summary> Notes </summary>
 
   **Adding Recepticals**
+  * Now we want to add some recepticals into our building.
+  * Makibng sure I was in "Level 1 - Power", we want to add recepticales into the Office Space 101.
+  * We go into the "Systems" Tab, then the device pulldown for "Electrical Panel" and select ["Electrical Fixture"](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Electrical%20Fixture%20Tool.png).
+  * I ensured I had the "standard" receptacle selected and made sure "place on vertical face" was on.
+  * I [placed](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Placed%20Recepticals%20in%20Office%20and%20Reception.png) 3 in the Office 101 Room and also 3 in the Reception 102 room.
+    * I also noted that the Loads tab in the properties is grayed out since there is no panel or circuit number specified. 
 
 
   
