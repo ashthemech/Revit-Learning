@@ -100,9 +100,9 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   **Creating Floor Plans**
   * Objective here is to add views to the project browser and duplicate existing views.
   * Going to the "view" tab, clicking "plan views" and "floor plan". Here, we only see levels 3-5 and the roof. We want to add Levels 1 and 2.
-  * Selecting the levels 3-5 and roof, we can change the electrical view template to "none", and discipline to ["coordination"]().
+  * Selecting the levels 3-5 and roof, we can change the electrical view template to "none", and discipline to ["coordination"](https://github.com/ashthemech/Revit-Learning/blob/main/Starting%20a%20Revit%20Project/Coordination.png).
   * Then, we make duplicate levels 3-5 and roof with detailing, renaming them to the power naming convention (not renaming the level here).
-  * Then, we put the view template back to electrical to copy the views to the electrical view tab in the [Project Browser]().
+  * Then, we put the view template back to electrical to copy the views to the electrical view tab in the [Project Browser](https://github.com/ashthemech/Revit-Learning/blob/main/Starting%20a%20Revit%20Project/Electrical%20Power%20New%20Views.png).
   * Views are used a lot in Revit, copying, manipulating, and then removing views but want to be organized about it. 
 
 </details>
