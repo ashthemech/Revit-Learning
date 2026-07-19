@@ -113,7 +113,7 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
 
   Key Takeaways:
   * Learned how to place a standard recptical on a wall.
-  * Learned how to place panels 
+  * Learned how to place panels, rename them, and copy them with a different voltage. 
 
 <details> 
 <summary> Notes </summary>
@@ -137,6 +137,13 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * I named the panel PP-1, and noted it has a distribution system - to power something with it, these distributions must match.
   * I copied the panel we placed and set the copy to the [right of the original panel](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/LP-1%20Panel%20Placement.png), making it a 480V MLO at 250A and named it "LP-1".
 
+
+  **Creating a Circuit**
+  * Now that we have panels and recptacles placed, we can create a cirtuit. A cirtuit is required to populate a panel schedule.
+  * In our office, we can select any one of the receptacles and click on "Power" then select PP-1. 
+  * Then, clicking on "Edit Circuit" and holding doen CTRL, I selected the remaining receptacles in the office.
+  * Then I made sure the Load Name was just "OFFICE 101 POWER" [(omitting "Receptacle")](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Office%20101%20Circuit.png).
+  * I repeated this process for [RECEPTION 102](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Reception%20102%20Circuit.png).
   
 </details>
 </details>
