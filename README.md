@@ -112,8 +112,9 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
 <summary> 3. Revit Electrical </summary>
 
   Key Takeaways:
-  * Learned how to place a standard recptical on a wall.
-  * Learned how to place panels, rename them, and copy them with a different voltage. 
+  * Learned how to place a standard receptacle on a wall.
+  * Learned how to place panels, rename them, and copy them with a different voltage.
+  * Learned how to create a panel schedule from existing circuits and explored how to edit a panel template. 
 
 <details> 
 <summary> Notes </summary>
@@ -139,11 +140,28 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
 
 
   **Creating a Circuit**
-  * Now that we have panels and recptacles placed, we can create a cirtuit. A cirtuit is required to populate a panel schedule.
+  * Now that we have panels and receptacles placed, we can create a circuit. A circuit is required to populate a panel schedule.
   * In our office, we can select any one of the receptacles and click on "Power" then select PP-1. 
-  * Then, clicking on "Edit Circuit" and holding doen CTRL, I selected the remaining receptacles in the office.
+  * Then, clicking on "Edit Circuit" and holding down CTRL, I selected the remaining receptacles in the office.
   * Then I made sure the Load Name was just "OFFICE 101 POWER" [(omitting "Receptacle")](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Office%20101%20Circuit.png).
   * I repeated this process for [RECEPTION 102](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Reception%20102%20Circuit.png).
+
+
+  **Panel Schedules**
+  * Panel schedules are a unique kind of schedule in Revit - you produce it by simply clicking on the panel and clicking "Create".
+  * In Level 1 - Power in our electrical room, we select the PP-1 panel.
+  * Then, I clicked Create Panel Schedules tab and used the [Default Template](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/PP-1%20Panel%20Schedule.png).
+  * If we click on our Office circuit, notice we can move it down, across, up, or "to".
+  * We can reindex, we can lock or unlock it, and edit the fonts.
+  * If we click on an open circuit, we can assign a spare or a space, or can label placeholders.
+  * Now, in the Project Browser, we have a new Panel Schedule drop down available showing our Panel Schedules.
+  * In the manage tab, we can manage the panel schedule templates.
+  * We can have a Branch panel, Data Panel, or a Switchboard. We can also see the available templates in Revit or change the panel configuration.
+  * In the Apply Templates tab we can apply a template to an existing panel schedule.
+  * If we click on Edit for the Default Branch Panel Schedule, we can [modify the template](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Edit%20Default%20Branch%20Panel.png) with carrots denoting fields.
+  * We can upload a picture, merge and unmerge cells, or change the default fields.
+  * Now, any fixtures that are added or removed from that panel will be automatically updated.
+ 
   
 </details>
 </details>
