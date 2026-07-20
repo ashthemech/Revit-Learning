@@ -115,7 +115,11 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * Learned how to place a standard receptacle on a wall.
   * Learned how to place panels, rename them, and copy them with a different voltage.
   * Learned how to create a panel schedule from existing circuits and explored how to edit a panel template.
-  * Learned how to place lighting in a room and check if a recessed fixture is recessed correctly. 
+  * Learned how to place lighting in a room and check if a recessed fixture is recessed correctly.
+  * Learned how to add a switch, duplicate a switch, and connect switches to a lighting fixture.
+  * Learned how to create a lighting circuit with the panel, and create a page view for the panel schedules.
+  * Learned how to add wires to receptacles and lighting with Revit's automatic placement and manual point to point wiring.
+
 
 <details> 
 <summary> Notes </summary>
@@ -183,6 +187,29 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * Then to circuit it,  we can select [one of the fixtures](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Selecting%20a%20Light.png) in the office, then click "switch -> add switch" and [select the appropriate switch]().
   * Then, "Edit Switch System" to [select the other lighting fixture](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Creating%20a%20Switch%20System.png) aswell, then repeat for the Reception room.
   * If you hover over the switch, and hit "tab", you can [see what it controls](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Using%20Tab%20to%20See%20Controls.png).
+
+
+  **Creating a Lighting Circuit**
+  * Still in the Ceilings Electrical view for the 1st floor, we select a light fixture and click power.
+  * Then, making sure LP-1 is the panel we use, we click edit circuit to add the other light fixture, then [changing the name](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Office%20101%20Lighting%20Power.png) to OFFICE 101 LIGHTING.
+  * Then, the process can be repeated for the Reception room.
+  * Now we create a [panel schedule](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/LP-1%20Panel%20Schedule.png) for the lighting of these two rooms - note you can also edit the names in here.
+  * We can add our panel schedules to a [new sheet](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Panel%20Schedule%20Sheet.png), naming it "PANEL SCHEDULES".
+
+
+  **Creating a Switching Circuit**
+  * Now that Revit knows you have a circuit in place, it can automatically draw in the wiring - we will do both ways, the automatic way and adding point by point.
+  * In our Power floor plan on Level 1, if we hover over a receptacle and hit tab key once, it will kind of [wire it in](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Adding%20Wires%20to%20Office%20Receptacles.png). 
+  * If we then select the fixture, we will get a chamfered wire or an arc wire. Let's select edit path.
+  * Here, we can select farthest distance or all devices - let's keep it on farthest device for now.
+  * Going back into modifying the wires, we can click on ["Generate Arc Type Wiring"](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Wires%20in%20Office%20with%20Ticks.png).
+    * A note on these wires - we can add or subtract tick marks, but some firms do not show them at all.
+    * To turn them off, go to systems tab and electrical settings dropdown, then into wires and set show tick marke to never to [get rid of them](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Wires%20in%20%20Office%20Without%20Ticks.png).
+  * I repeated the process for the [Reception room](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Wires%20in%20Reception%20Added.png), then went back into the Ceiling Electrical for Level 1.
+  * This time, I [manually added](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Wires%20for%20Lighting%20in%20Office%20Manual.png) the wires by going into the wire drop down, selecting arc wire and adding the light wires and the homerun wire.
+  * I repeated the automatic process for the Reception room by tabbing until it showed the [homerun wire view](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Wires%20in%20Reception%20-%20Homerun%20Tab.png), then [added the wiring](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Wires%20in%20Reception%20Added.png).
+
+
 
  
   
