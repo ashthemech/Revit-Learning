@@ -114,7 +114,8 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   Key Takeaways:
   * Learned how to place a standard receptacle on a wall.
   * Learned how to place panels, rename them, and copy them with a different voltage.
-  * Learned how to create a panel schedule from existing circuits and explored how to edit a panel template. 
+  * Learned how to create a panel schedule from existing circuits and explored how to edit a panel template.
+  * Learned how to place lighting in a room and check if a recessed fixture is recessed correctly. 
 
 <details> 
 <summary> Notes </summary>
@@ -164,7 +165,15 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
 
 
   **Adding Lighting Fixtures**
-  * 
+  * Now in 1 - Ceiling Elec, let's add some lighting - first ensure lighting fixtures are visible in the graphic override settings.
+  * Again in the Systems tab, we can go to "Lighting Fixtures" and select "Plain Recesses Lighting Fixture - 2x4 - 277".
+  * Ensure "Place on Face" is selected, I [placed two lighting fixtures](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Lighting%20in%20Office%20101.png) in the Office 101 room.
+  * I repeated the process to [place two in the Reception 102 room](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Lighting%20in%20Office%20and%20Reception.png) as well.
+  * Note - make sure if you want to put a fixture in the ceiling, it is indeed IN the ceiling.
+    * To do this, we can [cut a section](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Section%20for%20Lighting.png) by going to the view tab and creating a slice with the "Section" button.
+    * It will display quite a large section, but we can use the grips to zoom in and [confirm our lighting fixtures](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Section%20View%20for%20Lighting%20Cropped.png) are indeed recessed.
+  * Most lighting manufacturers have lighting families that can be used. 
+
  
   
 </details>
