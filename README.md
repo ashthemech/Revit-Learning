@@ -172,7 +172,17 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * Note - make sure if you want to put a fixture in the ceiling, it is indeed IN the ceiling.
     * To do this, we can [cut a section](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Section%20for%20Lighting.png) by going to the view tab and creating a slice with the "Section" button.
     * It will display quite a large section, but we can use the grips to zoom in and [confirm our lighting fixtures](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Section%20View%20for%20Lighting%20Cropped.png) are indeed recessed.
-  * Most lighting manufacturers have lighting families that can be used. 
+  * Most lighting manufacturers have lighting families that can be used.
+
+
+  **Adding Switches**
+  * We have our lights, but we need to add switches so we can turn them on and off.
+  * Back into Systems tab. clicking Device and then Lighting to add a "Door" switch near the doors.
+  * Making sure Place on Vertical Face was selected, I [added a switch](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Addding%20a%20Door%20Switch.png) next to the door, then [removed the label](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Removing%20a%20Switch%20Label.png) to clean it up by clicking "Edit Type".
+  * I then Left clicked on the switch, hit "Create Similar" and [added another switch](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Duplicating%20a%20Switch.png) to the reception room.
+  * Then to circuit it,  we can select [one of the fixtures](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Selecting%20a%20Light.png) in the office, then click "switch -> add switch" and [select the appropriate switch]().
+  * Then, "Edit Switch System" to [select the other lighting fixture](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Creating%20a%20Switch%20System.png) aswell, then repeat for the Reception room.
+  * If you hover over the switch, and hit "tab", you can [see what it controls](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Using%20Tab%20to%20See%20Controls.png).
 
  
   
