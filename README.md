@@ -227,7 +227,17 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
 
 
   **Adding Conduit**
-  * 
+  * In Level 1 - Power Floorplan, I made a [callout](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Electrical%20Room%20Callout.png) for the Electrical room.
+  * Then, clicking on PP-1 Panel, when right clicking the grip I selected "Draw Conduit from Face".
+  * This opens a [plan view](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Panel%20Plan%20View.png) where we can draw our conduit from.
+  * I moved it from 10" to 6", then clicked "Finish Connection".
+  * Now, we have the [option](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Conduit%20from%20Panel%20Box.png) of diameter and middle elevation.
+  * I changed the diameter to 2.5" and the elevation to 10', then drew it out the [hallway to the right](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Conduit%201%20from%20Panel.png).
+  * I drew another piece of conduit off of the first branch using "draw similar" to see the [junction box](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Conduit%20with%20Junction%20Box.png) be added and play with the flexibility of it.
+  * I selected the PP-1 Panel and a piece of conduit off of it, and clicked the "Selection Box" icon, which brought up a 3D model of the Electrical room.
+  * Then, I created a section and explored moving the conduit [up or down](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Electrical%20Room%20Section.png) using the arrow keys for the height.
+  * Then, if we go back into the Systems tab, click "Parallel Conduits" and select some of my drawn conduits, it will [duplicate them](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Parallel%20Conduit.png).
+
 
 
  
