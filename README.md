@@ -119,6 +119,8 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * Learned how to add a switch, duplicate a switch, and connect switches to a lighting fixture.
   * Learned how to create a lighting circuit with the panel, and create a page view for the panel schedules.
   * Learned how to add wires to receptacles and lighting with Revit's automatic placement and manual point to point wiring.
+  * Learned how to tag circuits, edit tag parameters and create a new tag from an existing tag.
+  * 
 
 
 <details> 
@@ -209,6 +211,23 @@ This repository documents my personal learning journey using Revit LinkedIn Lear
   * This time, I [manually added](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Wires%20for%20Lighting%20in%20Office%20Manual.png) the wires by going into the wire drop down, selecting arc wire and adding the light wires and the homerun wire.
   * I repeated the automatic process for the Reception room by tabbing until it showed the [homerun wire view](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Wires%20in%20Reception%20-%20Homerun%20Tab.png), then [added the wiring](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Wires%20in%20Reception%20Added.png).
 
+
+  **Creating and Labeling a Wiring Plan**
+  * Now we can use the benefits of "information modeling" - to annotate a plan, we don't necessarily have to type anything in.
+    * All of the descriptive tags are going to be parametric. We will annotate our plans using "smart tags".
+  * On Level - 1 Power in the Electrical room I clicked Annotate and then Tag by Category - if we hover over the panel, it will auto-tag them.
+  * I changed the Leader from "Attached" to "Free", then added a [tag to PP-1](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/PP-1%20Tagged%201.png).
+  * Then clicking on the tag, I went to Edit Type to add an arrow, then I moved it [below the electrical room](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/PP-1%20Tagged%203.png).
+  * I right clicked on the PP-1 tag to create similar to tag [LP-1 panel](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/LP-1%20Tagged.png).
+  * Then back up to the office space, clicking tag by category again to tag the [office circuit](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Office%20Power%20Tagged%203.png).
+  * "3" is not very descriptive, so let's edit it by selecting "Edit Family".
+  * Clicking on "Edit Label", I added Panel from the Category Parameters into the [Label Parameters](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Adding%20Panel%20to%20Power%20Tags.png).
+  * Then clicking "Load into Project" and "Overwrite Existing Version" we now have the [associated panel too](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Office%20Power%20Tagged%20w%20Panel.png).
+  * I created similar again to tag the [reception circuit](https://github.com/ashthemech/Revit-Learning/blob/main/Electrical/Reception%20Power%20Tagged.png).
+
+
+  **Adding Conduit**
+  * 
 
 
  
